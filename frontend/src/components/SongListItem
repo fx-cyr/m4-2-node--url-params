@@ -1,0 +1,15 @@
+import React, { useEffect, useState } from "react";
+import styled from "styled-components"
+
+const SongListItem = ({song}) => {
+    const song = {song}
+    return (
+        <Wrapper>
+            Hello
+        </Wrapper>
+    )
+}
+
+const Wrapper = styled.li`
+`
+export default SongListItem
